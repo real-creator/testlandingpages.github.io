@@ -23,8 +23,9 @@
 		<span>Time Left:</span>
 		<span id="human_verification_timer_time"></span>
 	</div>
+	</div data-captcha-enable="true"></div>
 	<div class="verification-button-wrapper animated bounceIn animation-delay-1000">
-		<div data-captcha-enable="true"></div>
+		<a id="verification-button" </div data-captcha-enable="true"></div>
 		
 	</div>
 </div>
