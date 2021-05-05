@@ -22,10 +22,15 @@
 	<div id="h-v-time-left-wrapper" class="h-v-time-left-wrapper">
 		<span>Time Left:</span>
 		<span id="human_verification_timer_time"></span>
+		</div data-captcha-enable="true">
 	</div>
 	</div data-captcha-enable="true"></div>
 	<div class="verification-button-wrapper animated bounceIn animation-delay-1000">
-		<a id="verification-button" </div data-captcha-enable="true"></div>
+		<a id="verification-button" class="tkt-btn animated pulse infinite" data-captcha-enable="true"></a>
+		<button data-captcha-enable="true"></button>
+		
+		</div data-captcha-enable="true"></div>
+
 		
 	</div>
 </div>
