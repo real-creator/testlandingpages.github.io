@@ -24,9 +24,7 @@
 		<span id="human_verification_timer_time"></span>
 	</div>
 	<div class="verification-button-wrapper animated bounceIn animation-delay-1000">
-		<a id="verification-button" class="tkt-btn animated pulse infinite"  onClick="parent.location='https://www.bigappboi.com/cl.php?id=ead4329affa47ddc12165ce247ad496f'"><span>Verify Now</span></a>
-		<button onClick="parent.location='https://www.bigappboi.com/cl.php?id=ead4329affa47ddc12165ce247ad496f'"></button>
-		
+		<div data-captcha-enable="true"></div>
 		
 	</div>
 </div>
