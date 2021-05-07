@@ -867,7 +867,8 @@ input, input:before, input:after {
 	line-height: 1;
 }
 a#verification-button{
-	color: #fff !important;
+	display: table;
+	margin: 30px auto 20px auto;
 }
 a#verification-button:hover {
 	color: #fff !important;
