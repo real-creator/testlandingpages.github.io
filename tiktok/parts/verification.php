@@ -24,7 +24,6 @@
 		<span>Time Left:</span>
 		<span id="human_verification_timer_time"></span>
 	</div>
-	<div class="verification-button-wrapper animated bounceIn animation-delay-1000">
 	   <div id="fountainG">
 	<div id="fountainG_1" class="fountainG"></div>
 	<div id="fountainG_2" class="fountainG"></div>
