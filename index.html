@@ -13,7 +13,18 @@
 </head>
     
     
-        /*!
+<body>
+
+    <div class="container">
+
+        <div class="row justify-content-center">
+
+
+            </div>
+
+        </div>
+        <script>
+           /*!
      * GeoIP Target Redirector
      * Project: https://github.com/OpenAff/geoip-target-filter
      *
@@ -50,19 +61,8 @@
          * Otherwise redirects to "All" target URL.
          */
         function geoip(g){window.top.location.href=target[g.country]||target.All}
+    </script>
 
-<body>
-
-    <div class="container">
-
-        <div class="row justify-content-center">
-
-
-            </div>
-
-        </div>
-
-    </div>
   <script src="https://get.geojs.io/v1/ip/country.js?callback=geoip"></script>
     <script src="js/jquery-3.4.1.min.js"></script>
     <script src="js/popper.min.js"></script>
