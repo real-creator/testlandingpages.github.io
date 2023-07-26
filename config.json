@@ -1,0 +1,58 @@
+{
+	"app": {
+		"status": "1",
+		"ebook_pdf_url": "https://real-creator.github.io/testlandingpages.github.io/ebook.pdf",
+		"ebook_description": "<p>Android Developer Fundamentals is a training course created by the Google Developer Training team. You learn basic Android programming concepts and build a variety of apps, starting with Hello World and working your way up to apps that use content providers and loaders.</p><p>Android Developer Fundamentals prepares you to take the exam for the Associate Android Developer Certification.</p><p>This course is intended to be taught in a classroom, but all the materials are online, so if you like to learn by yourself, go ahead!</p>",
+		"allow_save_book_in_storage": "true",
+		"swipe_horizontal_reading_book": "true",
+		"show_scroll_handle_reading_book": "true",
+		"custom_table_of_contents": "true"
+	},
+	"notification": {
+		"fcm_notification_topic": "",
+		"onesignal_app_id": ""
+	},
+	"url": {
+		"more_apps_url": "",
+		"privacy_policy_url": "https://sites.google.com/view/blogger-ebook-app-privacy",
+		"redirect_url": ""
+	},
+	"ads": {
+		"ad_status": "0",
+		"ad_type": "admob",
+		"backup_ads": "none",
+		"admob_publisher_id": "pub-3940256099942544",
+		"admob_app_id": "ca-app-pub-3940256099942544~3347511713",
+		"admob_banner_unit_id": "ca-app-pub-3940256099942544/6300978111",
+		"admob_interstitial_unit_id": "ca-app-pub-3940256099942544/1033173712",
+		"admob_native_unit_id": "ca-app-pub-3940256099942544/2247696110",
+		"admob_app_open_ad_unit_id": "ca-app-pub-3940256099942544/3419835294",
+		"startapp_app_id": "0",
+		"unity_game_id": "4089993",
+		"unity_banner_placement_id": "banner",
+		"unity_interstitial_placement_id": "video",
+		"applovin_banner_ad_unit_id": "493559dccad317bd",
+		"applovin_interstitial_ad_unit_id": "161f46f466210b6d",
+		"applovin_native_ad_manual_unit_id": "426a0b1bf0f6a092",
+		"mopub_banner_ad_unit_id": "b195f8dd8ded45fe847ad89ed1d016da",
+		"mopub_interstitial_ad_unit_id": "24534e1901884e398f1253216226017e",
+		"interstitial_ad_interval": 3
+	},
+	"table_of_contents": [
+		{
+			"page_title": "Arena Breakout Gameplay Basics",
+			"page_number": 2
+		},
+		
+	
+		{
+			"page_title": "Designing your own character in Arena Breakout",
+			"page_number": 3
+		},
+	
+		{
+			"page_title": "Hack Arena Breakout",
+			"page_number": 4
+		}
+	]
+}
